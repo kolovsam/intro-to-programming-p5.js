@@ -8,7 +8,7 @@ Some stuff about the processing programming language.
 
 [Cheat Sheet 2](https://cdn.sparkfun.com/assets/6/3/f/e/3/Processing_Cheatsheet_Update.pdf)
 
-# Books
+### Books
 - Greenberg, Ira, Dianna Xu, and Deepak Kumar. 2013. Processing: Creative Coding and Generative Art in Processing 2. Apress. 
 - McCarthy, Lauren, Casey Reas, and Ben Fry. 2015. Getting Started with p5.js: Making Interactive Graphics in JavaScript and Processing. Maker Media, Inc. http://proquest.safaribooksonline.com.offcampus.lib.washington.edu/book/web-design-and-development/9781457186769 or [PDF](http://graysonearle.com/edu/gamepro/wp-content/uploads/2014/12/1-3.pdf)
 - Meysenburg, Mark. 2013. Introduction to Programming Using Processing. lulu.com.
