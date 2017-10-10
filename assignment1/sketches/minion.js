@@ -1,4 +1,3 @@
-
 function setup() {
   createCanvas(600, 500);
   background('lightblue');

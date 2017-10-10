@@ -1,8 +1,3 @@
-// Toni Saylor
-// HCDE 598A
-// Assignment 1
-// Portrait
-
 function setup() {
   createCanvas(400, 400);
   background(240, 248, 255);

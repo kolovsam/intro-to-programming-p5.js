@@ -1,4 +1,3 @@
-//HCDE 598A Can Zhao 1-Computer Graphics 
 function setup(){
 	createCanvas(1024, 1024);
 	angleMode(DEGREES);

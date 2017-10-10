@@ -1,7 +1,3 @@
-// 1-Computer Graphics: Portrait of an Artist
-// By Thomas Tran
-
-
 function setup() {
   createCanvas(450, 550);
 }

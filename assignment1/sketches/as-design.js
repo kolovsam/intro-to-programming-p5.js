@@ -1,9 +1,3 @@
-/* 
-	Assignment 1
-  HCDE 598A
-  By Andrea Sequeira
-*/
-
 function setup() {
   // Draw canvas
   createCanvas(800, 1000); // Canvas sized 800x1000

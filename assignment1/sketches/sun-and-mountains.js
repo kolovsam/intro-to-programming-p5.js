@@ -1,8 +1,3 @@
-/* 
-Below is my code for Assignment 1 
-"Computer Graphics: Create a Digital Portrait" for the course 598A.
--Kartika Rathee */
-
 function setup() {
 
   createCanvas(500, 500); //draws a canvas 500x500 pixels

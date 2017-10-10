@@ -1,9 +1,6 @@
 function setup() {
   createCanvas(900, 900);
 
-  //Assignment 1 Computer Graphics
-  //HCDE 598A
-  //Elizabeth Quepons
   //Portrait of Japanese film character Totoro
 
   //Left arm
