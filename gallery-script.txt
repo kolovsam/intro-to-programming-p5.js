@@ -1,0 +1,22 @@
+Psuedo code for making a bash script to create the gallery.
+
+
+sketchesArray = all sketches in dir assignmentX/sketches
+
+for each sketch in sketchesArray:
+	Create a html page sketch.html
+	Add html to sketch.html
+		<html>
+    		<head>
+        		<title>$sketch</title>
+        		<script src="http://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.6/p5.js"></script>
+        		<script src="sketches/$sketch.js"></script>
+    		</head>
+    		<body>
+        		<h1>$sketch</h1>
+
+    		</body>
+		</html>
+
+
+	

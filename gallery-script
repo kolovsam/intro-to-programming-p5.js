@@ -1,0 +1,28 @@
+
+# sketchesArray = all sketches in dir assignmentX/sketches
+#shopt -s nullglob
+#sketches=( `ls "$dir" `)
+#printf '%s\n' "${sketches[@]}"
+
+# for each sketch in sketchesArray:
+for sketch in assignment1/sketches/*.js 
+do
+ # remove the assignment/sketches and .js
+ name="$(basename "$sketch" .js)"
+ echo "Processing $name"
+
+ # Create a html page sketch.html
+ cat > assignment1/$name.html <<- EOF
+        <html>
+            <head>
+                <title>$name</title>
+                <script src="http://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.6/p5.js"></script>
+                <script src="sketches/$name.js"></script>
+            </head>
+            <body>
+                <h1>$name</h1>
+            </body>
+        </html>
+EOF
+
+done
