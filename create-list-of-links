@@ -1,9 +1,11 @@
+
+# this would be better if it took input
 # loop through directory
-for sketch in assignment1/sketches/*.js
+for sketch in assignment2/sketches/*.js
 do
  # remove the assignment/sketches and .js
  name="$(basename "$sketch" .js)"
- echo "<a href="$name.html"><h2>>$name</h2></a>"
+ echo "<a href="$name.html"><h2>$name</h2></a>"
 
 
 done
