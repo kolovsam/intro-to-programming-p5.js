@@ -2,7 +2,9 @@
 # this would be better if it took input
 # loop through directory
 # CHANGE ASSIGNMENT NUMBER 
-for sketch in assignment4/sketches/*.js
+assignment="assignment6"
+
+for sketch in $assignment/sketches/*.js
 do
  # remove the assignment/sketches and .js
  name="$(basename "$sketch" .js)"
