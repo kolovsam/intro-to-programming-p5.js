@@ -5,7 +5,7 @@
 #printf '%s\n' "${sketches[@]}"
 
 # CHANGE ASSIGNMENT NUMBER HERE
-assignment="assignment4"
+assignment="assignment6"
 
 echo "*** Processing $assignment ***"
 
