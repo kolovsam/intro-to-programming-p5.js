@@ -5,12 +5,11 @@
 #printf '%s\n' "${sketches[@]}"
 
 # CHANGE ASSIGNMENT NUMBER HERE
-assignment="assignment6"
+assignment="assignment1"
 
 echo "*** Processing $assignment ***"
 
 # for each sketch in the dir 
-
 for sketch in $assignment/sketches/*.js 
 do
  # remove the assignment/sketches and .js

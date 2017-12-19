@@ -2,7 +2,7 @@
 # this would be better if it took input
 # loop through directory
 # CHANGE ASSIGNMENT NUMBER 
-assignment="assignment6"
+assignment="assignment1"
 
 for sketch in $assignment/sketches/*.js
 do
