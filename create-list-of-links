@@ -1,13 +1,21 @@
+#!/bin/bash
 
-# this would be better if it took input
-# loop through directory
-# CHANGE ASSIGNMENT NUMBER 
-assignment="assignment1"
+# Script to create a list of links for gallery page
+# Sam Kolovson
 
-for sketch in $assignment/sketches/*.js
+# 1) Ask for folder name as user input
+echo "Input folder name (eg. a3-interactive-story)"
+
+# 2) Get user input
+read assignment
+
+
+# 3) Loop through directory
+for sketch in winter2018/$assignment/*.js
 do
  # remove the assignment/sketches and .js
  name="$(basename "$sketch" .js)"
+ # print out html line to console
  echo "<a href="$name.html"><h2>$name</h2></a>"
 
 

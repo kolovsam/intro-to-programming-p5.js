@@ -4,25 +4,27 @@
 #sketches=( `ls "$dir" `)
 #printf '%s\n' "${sketches[@]}"
 
-# CHANGE ASSIGNMENT NUMBER HERE
-assignment="assignment1"
+# Ask for assignment folder name (eg. 'a4-scaled-drawing')
+echo "Input the assignment folder name (eg. 'a4-scaled-drawing')"
+
+read assignment
 
 echo "*** Processing $assignment ***"
 
 # for each sketch in the dir 
-for sketch in $assignment/sketches/*.js 
+for sketch in winter2018/$assignment/*.js 
 do
  # remove the assignment/sketches and .js
  name="$(basename "$sketch" .js)"
  echo "Processing $name"
 
  # Create a html page sketch.html
- cat > $assignment/$name.html <<- EOF
+ cat > winter2018/$assignment/$name.html <<- EOF
         <html>
             <head>
                 <title>$name</title>
-                <script src="p5-libraries/p5.js"></script>
-                <script src="sketches/$name.js"></script>
+                <script src="../p5-libraries/p5.js"></script>
+                <script src="$name.js"></script>
             </head>
             <body>
                 <h1>$name</h1>
