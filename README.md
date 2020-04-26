@@ -1,14 +1,20 @@
 # Introduction to Programming using p5.js
-Resource for HCDE 598a Autumn 2017 quarter.
+Resource for HCDE 598a Autumn 2017 and 2018 quarters.
 
 ## Student Gallery
-[Assignment 1](http://kolovsam.github.io/intro-to-programming-p5.js/assignment1/)
+[Assignment 1](http://kolovsam.github.io/intro-to-programming-p5.js/a1-digital-portrait/)
 
-[Assignment 2](http://kolovsam.github.io/intro-to-programming-p5.js/assignment2/)
+[Assignment 2](http://kolovsam.github.io/intro-to-programming-p5.js/a2-simple-animation/)
 
-[Assignment 3](http://kolovsam.github.io/intro-to-programming-p5.js/assignment3/)
+[Assignment 3](http://kolovsam.github.io/intro-to-programming-p5.js/a3-interactive-story)
 
-[Assignment 4](http://kolovsam.github.io/intro-to-programming-p5.js/assignment4/)
+[Assignment 4](http://kolovsam.github.io/intro-to-programming-p5.js/a4-scaled-drawing)
+
+[Assignment 5](http://kolovsam.github.io/intro-to-programming-p5.js/a5-chess-board)
+
+[Assignment 6](http://kolovsam.github.io/intro-to-programming-p5.js/a6-leaderboard)
+
+[Final Projects](http://kolovsam.github.io/intro-to-programming-p5.js/final-projects)
 
 
 ## [Processing (p5.js)](https://p5js.org/reference/)
